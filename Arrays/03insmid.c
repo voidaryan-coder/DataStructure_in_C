@@ -18,7 +18,7 @@ int main()
     {
         printf("%d ", arr[i]);
     }
-
+    
     // Checking Overflow
     if (n == 20)
     {
@@ -32,11 +32,10 @@ int main()
         scanf("%d", &item);
         printf("Enter the position of insertion: ");
         scanf("%d", &pos);
-
         // Checking for invalid position
         if (pos < 1 || pos > n + 1)
         {
-            printf("Invalid Position");
+            printf("Invalid Position for Insertion");
         }
         else
         {
@@ -51,7 +50,7 @@ int main()
             {
                 printf("%d ", arr[i]);
             }
-            printf("\nNew size of array: %d", n);
+            printf("\nNew size of array is: %d", n);
         }
     }
 }
