@@ -3,7 +3,7 @@ int main()
 {
     int arr[100][100], m, n, i, j, c_zero = 0, c_non = 0;
 
-    // Input the size of the array
+    // Input the size of the 2D array
     printf("Enter the size of matrix: ");
     scanf("%d%d", &m, &n);
 
